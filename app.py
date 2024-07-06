@@ -3,7 +3,7 @@
 #----------------------------------------------------------------------------#
 
 from flask import Flask, render_template, request,redirect
-from flask import send_file, send_from_directory, safe_join, abort
+from flask import send_file, send_from_directory, abort
 from flask.helpers import url_for
 
 from generate_report import *
@@ -71,7 +71,7 @@ def user():
 
 @app.route('/uploads', methods=['GET', 'POST'])
 def download():
-    return send_from_directory(directory="./reports", filename="report.pdf")
+    return send_from_directory("./reports", "report.pdf")
 
 
 @app.route("/analyze_img",methods=['POST','GET'])
