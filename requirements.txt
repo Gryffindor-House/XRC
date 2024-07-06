@@ -7,6 +7,7 @@ tensorflow
 fpdf
 numpy
 opencv-python
+gunicorn==19.7.1
 # ecdsa
 # paramiko
 # pycrypto
