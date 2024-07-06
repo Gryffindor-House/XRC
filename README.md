@@ -7,6 +7,8 @@ This project aims to develop an application called XRC (X-Ray Classifier) that u
 HTML/CSS/JavaScript
 Bootstrap
 Tensorflow
+Flask
+OpenCV
 
 ### Usage:
 Link to use is https://xrc-3ojs.onrender.com
